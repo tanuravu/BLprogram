@@ -16,11 +16,12 @@ public class Card {
         System.out.println("Branch:");
         String branch= sc.nextLine();
 
+
         // Output
         System.out.println("\n--- Student Details ---");
         System.out.println("Name     : " + name);
         System.out.println("Roll No  : " + rollNo);
         System.out.println("College  : " + college);
-        System.out.println("Branch Name"+ branch);
+        System.out.println("Branch Name : "+ branch);
     }
 }
